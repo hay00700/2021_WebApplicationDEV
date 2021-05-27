@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+</head>
+
+
+<body class = "container">
+<h4 class = "text-primary">기본적인 폼 </h4>
+
+<div class = "mb-3">
+	<lable for = "formGroupExampleInput" class = "form-label">Example lable</lable>
+	<input type = "text" class = "form-control" id = "formGroupExampleInput" placeholder = "Example input placeholder">
+</div>
+
+<h4 class = "text-primary">두 단으로 나눈 폼 </h4>
+	<div class = "row mb-3">
+		<div class = "col">
+		<input type = "text" class = "form-control" placeholder = "First name">
+		</div>
+		<div class = "col">
+		<input type = "text" class = "form-control" placeholder = "Last name">
+		</div>
+	</div>
+	
+<h4 class = "text-primary">두 단으로 나눈 폼에 거터 적용 </h4>
+	<div class = "row g-3 mb-3">
+		<div class = "col">
+		<input type = "text" class = "form-control" placeholder = "First name">
+		</div>
+		<div class = "col">
+		<input type = "text" class = "form-control" placeholder = "Last name">
+		</div>
+	</div>
+	
+<h4 class = "text-primary">라디오와 수평양식 </h4>
+
+<form>
+	<fieldset class = "row mb-3">
+		<legend class = "col-sm-2 col-form-label pt-0">Radios</legend>
+		<div class = "col-sm-10">
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+			  <label class="form-check-label" for="exampleRadios1">
+			    Default radio
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+			  <label class="form-check-label" for="exampleRadios2">
+			    Second default radio
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+			  <label class="form-check-label" for="exampleRadios3">
+			    Disabled radio
+			  </label>
+			</div>
+		</div>
+	</fieldset>
+</form>
+
+<h4 class = "text-primary">기본 라디오 </h4>
+<div class = "form-check">
+	<input class = "form-check-input" type = "radio" name = "flexRadioDefault" id = "flexRadioDefault1">
+	<label class = "foem-check-label" for = "flexRadioDefault1">Default radio</label>
+</div>
+<div class = "form-check mb-3">
+	<input class = "form-check-input" type = "radio" name = "flexRadioDefault" id = "flexRadioDefault2">
+	<label class = "foem-check-label" for = "flexRadioDefault2">Default radio2</label>
+</div>
+
+
+<h4 class = "text-primary">기본 라디오 비활성화 </h4>
+<div class = "form-check">
+	<input class = "form-check-input" type = "radio" name = "flexRadioDisabled" id = "flexRadioDefault1" disabled>
+	<label class = "foem-check-label" for = "flexRadioDisabled1">Default radio</label>
+</div>
+<div class = "form-check mb-3">
+	<input class = "form-check-input" type = "radio" name = "flexRadioDisabled" id = "flexRadioDefault2" disabled>
+	<label class = "foem-check-label" for = "flexRadioDisabled2">Default radio2</label>
+</div>
+
+
+<h4 class = "text-primary">플로팅 레이블 </h4>
+
+<div class="form-floating mb-3">
+  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+  <label for="floatingInput">Email address</label>
+</div>
+<div class="form-floating">
+  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+  <label for="floatingPassword">Password</label>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

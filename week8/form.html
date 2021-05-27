@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+</head>
+
+
+<body class = "container">
+<h4 class = "text-primary">기본적인 html5 폼 형태 </h4>
+<form class = "mb-3">
+	<label for = "Name">이름</label>
+	<input type = "text" placeholder = "이름">
+	<lable for = "email">이메일</lable>
+	<input type = "email" placeholder = "이메일">
+	<button type = "submit"> 확인 </button>
+</form>
+
+<h4 class = "text-primary"> 부트스트랩을 이용한 폼 형태 </h4>
+<form class = "mb-3">
+	<div class = "mb-3">
+		<label for = "Name" class = "form-label">이름</label>
+		<input type = "text" class = "form-control" placeholder = "이름">
+	</div>
+	<div class = "mb-3">
+		<lable for = "email" class = "form-label">이메일</lable>
+		<input type = "email" class = "form-control" placeholder = "이메일">
+	</div>
+	<div>
+		<button type = "submit" class = "btn btn-primary">확인</button>
+	</div>
+</form>
+
+<h4 class = "text-primary"> 부트스트랩을 이용한 수평 폼 형태 </h4>
+<form class = "mb-3">
+	<div class = "row mb-3">
+		<label for = "Name" class = "col-2 col-form-label">이름</label>
+		<div class = "col-10"><input type = "text" class = "form-control" placeholder = "이름"></div>
+
+	</div>
+	<div class = "mb-3">
+		<lable for = "email" class = "form-label">이메일</lable>
+		<input type = "email" class = "form-control" placeholder = "이메일">
+	</div>
+	<div>
+		<button type = "submit" class = "btn btn-primary">확인</button>
+	</div>
+</form>
+
+
+<h4 class = "text-primary"> 부트스트랩을 이용한 비활성화 폼 형태 </h4>
+<form>
+	<fieldset>
+	<legend>기본정보</legend>
+		<div class = "mb-3">
+			<div>
+				<label for = "Name" class = "form-label">이름</label>
+				<input type = "text" class = "form-control" placeholder = "이름">
+			</div>
+			<div>
+				<lable for = "email" class = "form-label">이메일</lable>
+				<input type = "email" class = "form-control" placeholder = "이메일">
+			</div>
+		</div>
+	</fieldset>
+	
+	<fieldset disabled>
+	<legend>부가정보</legend>
+		<div class = "mb-3">
+			<lable for = "address" class = "form-label">주소</lable>
+			<input type = "text" class = "form-control" placeholder = "주소">
+		</div>
+	</fieldset>
+</form>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
